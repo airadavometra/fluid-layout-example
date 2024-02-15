@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: min(0.5rem, 12px);
+}
+.imagePlaceholder {
+  width: 100px;
+  aspect-ratio: 2/3;
+  background-color: gainsboro;
+}
+.pageTitle {
+  font-size: clamp(1rem, 0.5556rem + 0.9259vw, 1.25rem);
+  font-weight: var(--semi-bold-font-weight);
+}

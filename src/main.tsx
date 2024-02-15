@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./reset.css";
 import "./index.css";
 import { Layout } from "./components/Layout/Layout";
+import { ArchivePage } from "./pages/ArchivePage/ArchivePage";
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
     path: "/archive",
     element: (
       <Layout>
-        <div>TODO: Archive page</div>
+        <ArchivePage />
       </Layout>
     ),
   },
