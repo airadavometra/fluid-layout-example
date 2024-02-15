@@ -3,35 +3,64 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./reset.css";
 import "./index.css";
+import { Layout } from "./components/Layout/Layout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>TODO: Comic page</div>,
+    element: (
+      <Layout>
+        <div>TODO: Comic page</div>
+      </Layout>
+    ),
   },
   {
     path: "/about",
-    element: <div>TODO: About page</div>,
+    element: (
+      <Layout>
+        <div>TODO: About page</div>
+      </Layout>
+    ),
   },
   {
     path: "/archive",
-    element: <div>TODO: Archive page</div>,
+    element: (
+      <Layout>
+        <div>TODO: Archive page</div>
+      </Layout>
+    ),
   },
   {
     path: "/characters",
-    element: <div>TODO: Characters page</div>,
+    element: (
+      <Layout>
+        <div>TODO: Characters page</div>
+      </Layout>
+    ),
   },
   {
     path: "/art",
-    element: <div>TODO: Art page</div>,
+    element: (
+      <Layout>
+        <div>TODO: Art page</div>
+      </Layout>
+    ),
   },
   {
     path: "/links",
-    element: <div>TODO: Links page</div>,
+    element: (
+      <Layout>
+        <div>TODO: Links page</div>
+      </Layout>
+    ),
   },
   {
     path: "*",
-    element: <div>TODO: 404 page</div>,
+    element: (
+      <Layout>
+        <div>TODO: 404 page</div>
+      </Layout>
+    ),
   },
 ]);
 

@@ -1,0 +1,22 @@
+.layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: min(96px, 4rem);
+}
+.header {
+  width: 100%;
+}
+.main {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.helperColor {
+  background-color: #f78da733;
+  border: 1px solid #f78da7;
+}
