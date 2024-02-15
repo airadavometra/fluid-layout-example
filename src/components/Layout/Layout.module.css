@@ -11,12 +11,3 @@
 .main {
   width: 100%;
 }
-.footer {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.helperColor {
-  background-color: #f78da733;
-  border: 1px solid #f78da7;
-}
