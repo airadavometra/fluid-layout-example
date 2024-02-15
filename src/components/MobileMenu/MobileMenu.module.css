@@ -10,14 +10,6 @@
   display: flex;
   background-color: var(--background-color);
 }
-.closeIconButton {
-  position: absolute;
-  top: min(1.5rem, 32px);
-  right: 16px;
-}
-.closeIcon {
-  width: 1.5rem;
-}
 .menu {
   margin: auto;
 }
